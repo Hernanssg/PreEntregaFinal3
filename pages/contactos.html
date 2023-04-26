@@ -1,14 +1,149 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="keywords" content="contacto, informacion, problemas, preguntas, sugerencias">
-    <link rel="stylesheet" href="../css/style.css">
-   <title>Contacto Monster</title>
+    <!-- SEO -->
+    <meta name="keywords" content="contacto, informacion, problemas, preguntas, sugerencias">
+   <!-- BOOTSTRAPS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <!-- CSS -->
+   <link rel="stylesheet" href="../css/style.css">
+
+    <title>Contacto 📝 Monster Energy</title>
 </head>
+
 <body>
-    
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gaming-deportes.html"> Gaming-Deportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienes-somos.html">Quienes Somos</a>
+                        <li class="nav-item"><a class="nav-link" href="./contactos.html">Contactanos</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <main id="main-Contactanos">"
+
+            <h1>FORMULARIO DE CONTACTO</h1>
+            <h1>Su opinión es valiosa para nosotros. Por favor, envíenos sus sugerencias. </h1>
+            <section class="transiciones-contacto">
+                <h1><u>Monster Energy Company</u></h1>
+            </section>
+
+            <p>No hay Solicitación. Aunque nos gusta escuchar a nuestros fans, es la política de <u>Energy Monster
+                    Company</u> (MEC) a no aceptar envíos no solicitados de ideas o de otro material creativo.</p>
+            <p>Para evitar cualquier malentendido si los productos MEC o de marketing que desarrollamos de forma
+                independiente parecen similares a las ideas que se nos presenta. Por tanto, debemos pedir que no nos
+                envíe ningún material creativo original tales como ideas para nuevos o mejorados productos, campañas
+                publicitarias, o nombres de productos, etc. </p>
+            <p>Cualquier comunicación o material que usted transmita al
+                Sitio por correo electrónico u otro medio será tratado como no confidencial y sin propiedad.
+                Cualquier cosa que usted transmita o publique podrá ser utilizado por MEC o sus afiliados para
+                cualquier propósito, incluyendo, la reproducción, divulgación, transmisión, publicación, emisión y
+                publicación.</p>
+            <p> Por otra parte, MEC es libre de usar cualquier idea, concepto, know-how, o técnicas
+                contenidas en cualquier comunicación que envíe al Sitio para cualquier propósito, incluyendo,
+                desarrollo y comercialización de productos. </p>
+            <p> Esto es para evitar malentendidos si los productos MEC o la mercadotecnia que desarrollamos
+                independientemente
+                parecen similares a las ideas que nos envían.</p>
+            <p> Cualquier comunicación o material que usted transmita
+                a este sitio web, por correo electrónico o por otra vía será tratado como no confidencial y no
+                propietario. </p>
+            <p>Todo lo que transmita o publique puede ser utilizado por MEC o sus afiliados para
+                cualquier fin, incluida, entre otros, la reproducción, divulgación, transmisión, publicación,
+                transmisión y publicación.
+            <p> Además, MEC es libre de usar cualquier idea, concepto, conocimiento o
+                técnica contenida en cualquier comunicación que envíe al sitio web para cualquier fin, incluidos,
+                entre otros, el desarrollo y la comercialización de producto</p>
+
+
+            <!-- Form which will send a GET request to the current URL -->
+            <form class="formulario form-flex" method="get">
+                <label>Nombre
+                    <input class="input" name="submitted-name" autocomplete="name" />
+                </label>
+                <label>Apellido
+                    <input class="input" name="submitted-name" autocomplete="name" />
+                </label>
+                <label>Pais
+                    <input class="input" name="submitted-name" autocomplete="name" />
+                </label>
+            </form>
+
+            <!-- Form which will send a POST request to the current URL -->
+            <form class="formulario" method="post">
+                <label>Email
+                    <input class="input" name="submitted-name" autocomplete="name" />
+                </label>
+                <label>Codigo Postal
+                    <input class="input" name="submitted-name" autocomplete="name" />
+                </label>
+                <label>Ciudad
+                    <input class="input" name="submitted-name" autocomplete="name" />
+                </label>
+            </form>
+
+            <textarea class="texto textarea-flex input" id="story" name="story" rows="9" cols="280"
+                placeholder="Comenta su opinion o problema!"></textarea>
+
+
+            </div>
+            <!-- Form with fieldset, legend, and label -->
+            <form class="condiciones form-flex" method="post">
+                <fieldset>
+                    <legend>Acepta los terminos y condiciones?</legend>
+                    <label><input type="radio" name="radio" value="yes" /> Si</label>
+                    <label><input type="radio" name="radio" value="no" /> No</label>
+                </fieldset>
+
+
+                <div class="d-grid gap-2 $gray-200">
+                    <button class="btn btn-secondary" type="button">Enviar</button>
+            </form>
+        </main>
+
+        <footer class="footer">
+
+            <a href="https://www.monsterenergy.com/es/es/privacy-policy">Politica de Privacidad </a>
+
+            <a href="https://www.monsterenergy.com/es/es/cookies-policy">Politica de Cookies</a>
+
+            <a href="https://www.monsterenergy.com/es/es/terms-of-use">Terminos de Uso</a>
+
+            <a href="https://www.monsterenergy.com/es/es/coupon-policy"> Politica de Cupon</a>
+
+
+        </footer>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </html>
