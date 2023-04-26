@@ -1,42 +1,42 @@
-.__header {
-    max-width: 100vw;
-    .navbar-nav {
+.__header{
+
+    .navbar-nav{
         width: 1800px;
         display: flex;
         justify-content: space-evenly;
         background-color: grey;
-        padding: 4px;
-        font-size: 20px;
-        margin: 5px;
+    
     }
-
-    a {
-        color: #cccccc;
-        background-color: #666464;
-        transition: .1s;
-        transform: scale(1.2);
-    }
-
-    nav ul li:hover {
-        background-color: rgb(28, 39, 28);
-        transition: .1s;
-        transform: scale(1.2);
-    }
-
     nav ul {
-        padding: 5px;
+        background-color: dimgray;
+        padding: 1px ;
+    
+    
     }
-
-
+    
     nav ul li {
         background-color: dimgray;
         color: white;
         display: inline;
-        border: 2px solid;
-        padding: 8px;
+        border: 2px solid white;
+        padding: 3px;
         margin: 10px;
         width: 300px;
         align-items: center;
+    
+
+        .nav-link:hover{
+            background-color: rgb(28, 39, 28);
+            transition:.1s;
+            transform: scale(1.1);
+        
+        
+        .input:focus{
+        
+        background-color: rgb(136, 207, 174);
+        transform: scale(1.1);
+        transition: .2s;}
+        }
     }
 }
 
