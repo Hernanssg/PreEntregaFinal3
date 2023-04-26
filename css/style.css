@@ -1,0 +1,213 @@
+/* Estilos Generales */
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center; }
+
+h2 {
+  font-size: 20px;
+  color: white;
+  padding: 3px; }
+
+h4 {
+  font-size: 18px;
+  color: white; }
+
+h5 {
+  color: white; }
+
+p {
+  padding: 2px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white; }
+
+u {
+  color: green; }
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black; }
+
+.header .navbar-nav {
+  width: 1800px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: grey; }
+
+.header nav ul {
+  background-color: dimgray;
+  padding: 1px; }
+
+.header nav ul li {
+  background-color: dimgray;
+  color: white;
+  display: inline;
+  border: 2px solid white;
+  padding: 3px;
+  margin: 10px;
+  width: 300px;
+  align-items: center; }
+  .header nav ul li .nav-link:hover {
+    background-color: #1c271c;
+    transition: .1s;
+    transform: scale(1.1); }
+    .header nav ul li .nav-link:hover .input:focus {
+      background-color: #88cfae;
+      transform: scale(1.1);
+      transition: .2s; }
+
+.main {
+  /* Mobile last */
+  /* ANCHO MAXIMO  INDEX */ }
+  .main .movimiento {
+    transform: translate(700px);
+    color: white;
+    padding: 30px;
+    background-color: black;
+    transition: 2s;
+    font-size: 30px;
+    text-decoration: underline color green;
+    max-width: 50vw; }
+  .main .movimiento:hover {
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    transform: scale(1.1);
+    max-width: 100vw; }
+  .main .reset2 {
+    display: flex;
+    color: white;
+    padding: 5px;
+    font-size: 20px; }
+  .main .suscribete {
+    padding: 5px;
+    margin: 2px;
+    font-size: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end; }
+  .main .main__div {
+    max-width: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .main .mobile-last u {
+    color: green; }
+  @media (max-width: 768px) {
+    .main .movimiento {
+      max-width: 768px;
+      transform: translate(250px); }
+    .main u {
+      color: yellow; }
+    .main img {
+      width: 500px; }
+    .main .navbar-nav {
+      width: 1780px;
+      display: flex;
+      justify-content: space-evenly; } }
+
+.footer {
+  display: flex;
+  max-width: 100vw;
+  background-color: gray;
+  width: 1800px;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 5px solid gray; }
+
+a {
+  color: white; }
+
+.__header {
+  max-width: 100vw; }
+  .__header .navbar-nav {
+    width: 1800px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    padding: 4px;
+    font-size: 20px;
+    margin: 5px; }
+  .__header a {
+    color: #cccccc;
+    background-color: #666464;
+    transition: .1s;
+    transform: scale(1.2); }
+  .__header nav ul li:hover {
+    background-color: #1c271c;
+    transition: .1s;
+    transform: scale(1.2); }
+  .__header nav ul {
+    padding: 5px; }
+  .__header nav ul li {
+    background-color: dimgray;
+    color: white;
+    display: inline;
+    border: 2px solid;
+    padding: 8px;
+    margin: 10px;
+    width: 300px;
+    align-items: center; }
+
+.main_productos img {
+  padding: 10px;
+  width: 1785px; }
+
+.main_productos ul li {
+  color: white;
+  font-size: 23px;
+  padding: 5px;
+  margin: 10px; }
+
+.main_productos .subtitulo {
+  text-decoration: underline;
+  font-size: 30px;
+  margin: 25px; }
+
+.main_productos .calidad {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px; }
+
+.main_productos .reset {
+  display: flex;
+  padding: 5px;
+  font-size: 25px;
+  color: white;
+  margin: 20px; }
+
+.footer {
+  display: flex;
+  max-width: 100vw;
+  background-color: gray;
+  width: 1800px;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 5px solid gray; }
+
+.condicion {
+  color: white;
+  font-size: 15px; }
+
+/* ANCHO MAXIMO PRODUCTOS */
+@media (max-width: 414px) {
+  .main_productos .navbar-nav {
+    max-width: 414px;
+    max-width: 50vw; }
+  .main_productos img {
+    width: 415px; }
+  .main_productos .container-fluid {
+    width: 415px; }
+  u {
+    color: red; }
+  main ul li {
+    width: 100%; } }

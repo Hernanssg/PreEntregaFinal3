@@ -1,0 +1,69 @@
+.main{
+    .movimiento {
+        transform: translate(700px);
+        color: white;
+        padding: 30px;
+        background-color: black;
+        transition: 2s;
+        font-size: 30px;
+    text-decoration: underline color green;
+    max-width: 50vw;
+}
+.movimiento:hover {
+    background-color: green;
+    font-weight: bold;
+    text-align: center;
+    transform: scale(1.1);
+    max-width: 100vw;
+}
+.reset2 {
+    display: flex;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+}
+.suscribete{
+    padding: 5px;
+    margin: 2px;
+    font-size: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+.main__div{
+max-width: 100%;
+color: aliceblue;
+display: flex;
+align-items: center;
+list-style: none;
+font-size: 30px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+/* Mobile last */
+
+.mobile-last u {
+    color: green}
+
+
+/* ANCHO MAXIMO  INDEX */
+@media (max-width: 768px){
+    .movimiento {
+        max-width: 768px;
+        transform: translate(250px);
+    }
+u {
+    color: yellow;
+}
+
+img{ width: 500px;}
+
+.navbar-nav{
+        width: 1780px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+}

@@ -1,0 +1,15 @@
+// Variables
+@import "../utilities/generales.scss";
+@import "../utilities/colors.scss";
+
+// Reset
+@import "../utilities/reset.scss";
+@import "../utilities/extend-y-mixin.scss";
+// Section
+@import "./header";
+@import "./main-index";
+@import "./footer";
+@import "./productos.scss";
+@import "./gaming-deportes.scss";
+@import "./quienes-somos.scss";
+@import "./contactos";
