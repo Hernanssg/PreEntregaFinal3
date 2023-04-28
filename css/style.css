@@ -89,6 +89,10 @@ u {
     display: flex;
     justify-content: center;
     align-content: flex-end; }
+  .main .input:focus {
+    background-color: #88cfae;
+    transform: scale(1.1);
+    transition: .2s; }
   .main .main__div {
     max-width: 100%;
     color: aliceblue;
@@ -294,3 +298,67 @@ a {
     max-width: 485px; }
   u {
     color: #88cfae; } }
+
+.main-contactos .transiciones-contacto {
+  transform: translate(15px);
+  padding: 5px;
+  background-color: black;
+  transition: 1s;
+  font-size: 20px;
+  text-decoration: underline color green; }
+
+.main-contactos .formulario {
+  margin: 0;
+  padding: 10px;
+  color: white;
+  display: flex;
+  font-size: 18px;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.main-contactos .condiciones {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 5px;
+  color: white;
+  font-size: 20px; }
+  .main-contactos .condiciones .terminos {
+    font-size: 25px; }
+
+.main-contactos .texto {
+  width: 1780px;
+  height: 150px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  justify-content: center; }
+
+.main-contactos .input:focus {
+  background-color: #88cfae;
+  transform: scale(1.1);
+  transition: .2s; }
+
+@media (max-width: 320px) {
+  .main-contactos .formulario {
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+  .main-contactos .texto {
+    width: 290px; }
+  .main-contactos .transiciones-contacto {
+    transform: translate(2px);
+    padding: 5px;
+    background-color: black;
+    transition: 1s;
+    font-size: 20px;
+    text-decoration: underline color green; }
+  .main-contactos .input:focus {
+    background-color: #64ed6b;
+    transform: scale(1.1);
+    transition: .2s; }
+  .main-contactos u {
+    color: red; } }

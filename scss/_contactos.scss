@@ -1,0 +1,87 @@
+.main-contactos {
+    .transiciones-contacto {
+        transform: translate(15px);
+        padding: 5px;
+        background-color: black;
+        transition: 1s;
+        font-size: 20px;
+        text-decoration: underline color green;
+    }
+
+    .formulario {
+        margin: 0;
+        padding: 10px;
+        color: white;
+        display: flex;
+        font-size: 18px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .condiciones {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+
+        .terminos {
+            font-size: 25px;
+        }
+    }
+
+    .texto {
+        width: 1780px;
+        height: 150px;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .input:focus {
+
+        background-color: rgb(136, 207, 174);
+        transform: scale(1.1);
+        transition: .2s;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+.main-contactos{
+    .formulario {
+    padding: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+.texto{
+    width: 290px;
+}
+
+.transiciones-contacto {
+    transform: translate(2px);
+    padding: 5px;
+    background-color: black;
+    transition: 1s;
+    font-size: 20px;
+    text-decoration: underline color green;
+}
+
+    .input:focus{
+        background-color: rgb(100, 237, 107);
+        transform: scale(1.1);
+        transition: .2s;
+    }
+
+u{
+    color: red;
+}
+
+}
+}
