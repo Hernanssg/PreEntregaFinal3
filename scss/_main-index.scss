@@ -56,11 +56,11 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 /* ANCHO MAXIMO  INDEX */
 @media (max-width: 768px){
     .movimiento {
-        max-width: 768px;
-        transform: translate(250px);
+        max-width: 505px;
+        transform: translate(200px);
     }
 u {
-    color: yellow;
+    color: $monster-yellow;
 }
 
 img{ width: 500px;}
