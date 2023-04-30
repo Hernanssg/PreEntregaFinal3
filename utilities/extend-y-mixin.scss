@@ -1,0 +1,16 @@
+/*EXTEND*/
+// flex-column{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     background-color: $verde-lima;
+// }
+
+
+@mixin flexible ($dis, $direction, $corte, $just,$align){
+display: $dis;
+flex-flow: $direction $corte;
+justify-content:$just ;
+align-items: $aling;
+}

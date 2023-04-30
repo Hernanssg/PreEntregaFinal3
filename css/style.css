@@ -30,6 +30,7 @@ u {
   padding: 0;
   background-color: black; }
 
+/*EXTEND*/
 .header .navbar-nav {
   width: 1800px;
   display: flex;
