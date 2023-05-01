@@ -9,18 +9,17 @@ h2 {
   color: white;
   padding: 3px; }
 
-h4 {
-  font-size: 18px;
-  color: white; }
-
-h5 {
-  color: white; }
-
 p {
   padding: 2px;
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 26px; }
 
 u {
   color: green; }
@@ -31,6 +30,12 @@ u {
   background-color: black; }
 
 /*EXTEND*/
+.main__div1, .main-contactos .main__div2 {
+  text-decoration: underline chartreuse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  color: white; }
+
 .header .navbar-nav {
   width: 1800px;
   display: flex;
@@ -352,11 +357,20 @@ a {
   flex-direction: row;
   justify-content: space-around; }
 
+.main-contactos .main__div1, .main-contactos .main__div2 {
+  text-decoration: underline chartreuse;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  color: white; }
+
+.main-contactos .main__div2 {
+  text-decoration: underline white; }
+
 .main-contactos .condiciones {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   padding: 5px;
   color: white;
   font-size: 20px; }
