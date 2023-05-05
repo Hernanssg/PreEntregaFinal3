@@ -81,7 +81,17 @@
         .index-sub {
             font-size: 24px;
         }
+
+
+
     }
+
+    .video-index {
+        width: 500px;
+        height: 315px;
+    }
+
+
 
 
     /* Mobile last */
@@ -91,7 +101,7 @@
     }
 
 
-    /* ANCHO MAXIMO  INDEX */
+    /* ANCHO MAXIMO  TABLET*/
     @media (max-width: 768px) {
         .movimiento {
             max-width: 505px;
@@ -113,4 +123,45 @@
         }
 
     }
+
+    // ANCHO MAXIMO MOBILE 
+
+    @media (max-width: 468px) {
+        .movimiento {
+            max-width: 400px;
+            transform: translate(25px);
+            font-size: 20px;
+        }
+
+        u {
+            color: $monster-yellow;
+        }
+
+        img {
+            margin: auto;
+            width: 200px;
+            display: flex;
+        }
+
+        .main__div {
+            display: block;
+
+            .index-sub {
+                font-size: 10px;
+            }
+        }
+
+        .video-index {
+            width: 390px;
+            display: block;
+        }
+
+        .navbar-nav {
+            width: 1780px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+    }
+
 }

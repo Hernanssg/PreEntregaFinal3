@@ -1,16 +1,26 @@
 .__header {
 
     .navbar-nav {
-        width: 1780px;
+        width: 1770px;
         display: flex;
         justify-content: space-evenly;
         background-color: grey;
 
     }
 
+    .container-fluid {
+        background: grey;
+
+        .collapse {
+            background: grey;
+        }
+    }
+
+
     nav ul {
         background-color: dimgray;
         padding: 1px;
+
 
 
     }
@@ -24,6 +34,7 @@
         margin: 10px;
         width: 300px;
         align-items: center;
+
 
 
         .nav-link:hover {
@@ -55,6 +66,7 @@
         font-size: 23px;
         padding: 5px;
         margin: 10px;
+        list-style: decimal-leading-zero;
     }
 
     .subtitulo {
@@ -70,6 +82,7 @@
         flex-direction: column;
         padding: 10px;
         font-size: 20px;
+
     }
 
     .reset {
@@ -100,7 +113,44 @@
 
 // MOBILE-LAST
 
-/* ANCHO MAXIMO PRODUCTOS */
+/* ANCHO MAXIMO TABLET PRODUCTOS */
+
+@media (max-width: 768px) {
+
+    .main_productos {
+        .navbar-nav {
+            max-width: 500px;
+        }
+
+        img {
+            width: 720px;
+        }
+
+        .container-fluid {
+            width: 415px;
+        }
+
+        u {
+            color: $monster-fuchsia;
+        }
+    }
+
+    main ul li {
+        width: 70%;
+        font-size: 10px;
+        margin: auto;
+    }
+
+    ul li u {
+        color: $monster-red !important;
+    }
+}
+
+
+
+
+
+/* ANCHO MAXIMO MOBILE PRODUCTOS */
 
 @media (max-width: 414px) {
 
