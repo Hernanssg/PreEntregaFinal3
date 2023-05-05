@@ -1,7 +1,7 @@
 .__header {
 
     .navbar-nav {
-        width: 1800px;
+        width: 1780px;
         display: flex;
         justify-content: space-evenly;
         background-color: grey;
@@ -75,9 +75,9 @@
     .reset {
         display: flex;
         padding: 5px;
-        font-size: 25px;
-        color: white;
-        margin: 20px;
+        color: #faea00;
+        font-size: 20px;
+        font-family: monospace;
 
     }
 }
@@ -118,7 +118,7 @@
             width: 415px;
         }
 
-        u{
+        u {
             color: $monster-fuchsia;
         }
     }
@@ -129,6 +129,6 @@
     }
 
     ul li u {
-        color:$monster-red !important;
+        color: $monster-red !important;
     }
 }
