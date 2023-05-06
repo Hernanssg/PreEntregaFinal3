@@ -21,8 +21,42 @@
 a {
     color: white;
 }
+/* ANCHO MAXIMO  TABLET Y MOBILE */
+
+/* ANCHO MAXIMO  TABLET*/
+@media (max-width: 768px) {
+
+    .main-quienes-somos {
+        .foto3 {
+            width: 300px;
+            margin: auto;
+            display: flex;
+
+        }
+
+        .foto4 {
+            width: 300px;
+            margin: auto;
+            display: flex;
+
+        }
+
+        h1 {
+            font-size: 15px;
+        }
 
 
+    }
+
+    .footer-quienes-somos {
+        max-width: 100vw;
+
+    }
+
+}
+
+
+/* ANCHO MAXIMO  MOBILE*/
 @media (max-width: 375px) {
 
     .main-quienes-somos {
