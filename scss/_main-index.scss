@@ -51,7 +51,7 @@
         font-family: monospace;
 
     }
-
+    
     .suscribete {
         padding: 5px;
         margin: 2px;
@@ -90,57 +90,52 @@
         width: 500px;
         height: 315px;
     }
+ .active{
+    background-color: #faea00;
+ }
+}
 
 
+/* Mobile last */
+
+.mobile-last u {
+    color: green
+}
 
 
-    /* Mobile last */
-
-    .mobile-last u {
-        color: green
-    }
-
-
-    /* ANCHO MAXIMO  TABLET*/
-    @media (max-width: 768px) {
+/* ANCHO MAXIMO  TABLET*/
+@media (max-width: 768px) {
+    .main {
         .movimiento {
-            max-width: 505px;
+            max-width: 520px;
             transform: translate(200px);
         }
-
-        u {
-            color: $monster-yellow;
-        }
-
-        img {
-            width: 380px;
-        }
-
-        .navbar-nav {
-            width: 1780px;
-            display: flex;
-            justify-content: space-evenly;
-        }
-
     }
 
-    // ANCHO MAXIMO MOBILE 
+    u {
+        color: $monster-yellow;
+    }
 
-    @media (max-width: 468px) {
+    img {
+        width: 380px;
+    }
+
+    .navbar-nav {
+        width: 1780px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+// ANCHO MAXIMO MOBILE 
+
+@media (max-width: 468px) {
+    .main {
         .movimiento {
             max-width: 400px;
             transform: translate(25px);
             font-size: 20px;
-        }
-
-        u {
-            color: $monster-yellow;
-        }
-
-        img {
-            margin: auto;
-            width: 200px;
-            display: flex;
         }
 
         .main__div {
@@ -150,18 +145,27 @@
                 font-size: 10px;
             }
         }
+                .video-index {
+                    width: 390px;
+                    display: block;
+                }    }
 
-        .video-index {
-            width: 390px;
-            display: block;
-        }
+    u {
+        color: $monster-yellow;
+    }
 
-        .navbar-nav {
-            width: 1780px;
-            display: flex;
-            justify-content: space-evenly;
-        }
+    img {
+        margin: auto;
+        width: 200px;
+        display: flex;
+    }
 
+
+
+    .navbar-nav {
+        width: 1780px;
+        display: flex;
+        justify-content: space-evenly;
     }
 
 }

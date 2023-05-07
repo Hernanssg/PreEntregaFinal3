@@ -23,7 +23,7 @@
 
         // ELEMENTOS
         &__div1 {
-            text-decoration: underline chartreuse;
+            text-decoration: underline rgb(154, 170, 138);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 24px;
             color: white;
@@ -32,7 +32,7 @@
 
         &__div2 {
             @extend .main__div1;
-            text-decoration: underline white;
+            text-decoration: underline rgb(241, 193, 193);
 
         }
     }
@@ -103,16 +103,6 @@
 
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 /* ANCHO MAXIMO  MOBILE*/
