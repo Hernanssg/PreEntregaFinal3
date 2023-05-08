@@ -137,7 +137,8 @@ u {
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   .main .main__div .index-sub {
-    font-size: 24px; }
+    font-size: 24px;
+    list-style: none; }
 
 .main .video-index {
   width: 500px;
