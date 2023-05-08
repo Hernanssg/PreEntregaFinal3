@@ -71,11 +71,18 @@
         .formulario {
             padding: 5px;
             color: white;
-            display: flex;
-            flex-direction: row;
+            display: block;
+            max-width: 45%;
+            margin: auto;
+        }
+
+        .terminos {
+
+            max-width: 90%;
         }
 
         .texto {
+            max-width: 100%;
             width: 395px;
             margin: auto;
             display: flex;
@@ -101,6 +108,21 @@
             color: $monster-violeta;
         }
 
+        h1 {
+            font-size: 16px;
+            max-width: 100%;
+        }
+
+        h4 {
+            font-size: 14px;
+            max-width: 90%;
+        }
+
+        h5 {
+            font-size: 14px;
+            max-width: 90%;
+        }
+
     }
 }
 
@@ -109,15 +131,28 @@
 @media (max-width: 320px) {
     .main-contactos {
         .formulario {
+            font-size: 12px;
+            max-width: 80%;
             padding: 2px;
             color: white;
-            display: flex;
+            display: block;
             flex-direction: column;
             justify-content: space-around;
         }
 
+        .titulo-contactos {
+            max-width: 80%;
+
+        }
+
+        .terminos {
+            max-width: 100%;
+        }
+
         .texto {
-            width: 290px;
+            max-width: 80%;
+            width: 200px;
+            margin: auto;
         }
 
         .transiciones-contacto {
@@ -139,5 +174,20 @@
             color: $monster-violeta;
         }
 
+        h1 {
+            font-size: 13px;
+            max-width: 100%;
+        }
+
+        h4 {
+            font-size: 12px;
+            max-width: 90%;
+        }
+
+        h5 {
+            font-size: 12px;
+            max-width: 90%;
+        }
     }
+
 }

@@ -155,26 +155,47 @@ u {
 @media (max-width: 768px) {
   .main .movimiento {
     max-width: 520px;
+    width: 100%;
     transform: translate(200px); }
+  .main .index-sub {
+    max-width: 100%;
+    font-size: 14px;
+    display: block; }
+  .main .video-index {
+    max-width: 80%;
+    width: 390px;
+    display: block; }
   u {
     color: #dafa25; }
   img {
-    width: 380px; }
+    max-width: 80%;
+    width: 350px; }
   .navbar-nav {
-    width: 1780px;
+    max-width: 100%;
+    width: 1820px;
     display: flex;
-    justify-content: space-evenly; } }
+    justify-content: space-evenly; }
+  h1 {
+    max-width: 100%;
+    font-size: 15px; }
+  h2 {
+    max-width: 100%;
+    font-size: 14px; } }
 
 @media (max-width: 468px) {
   .main .movimiento {
     max-width: 400px;
-    transform: translate(25px);
-    font-size: 20px; }
+    transform: translate(17px);
+    font-size: 17px;
+    max-width: 100%; }
   .main .main__div {
     display: block; }
     .main .main__div .index-sub {
-      font-size: 10px; }
+      max-width: 100%;
+      font-size: 10px;
+      margin: auto; }
   .main .video-index {
+    max-width: 80%;
     width: 390px;
     display: block; }
   u {
@@ -182,17 +203,24 @@ u {
   img {
     margin: auto;
     width: 200px;
-    display: flex; }
+    display: flex;
+    max-width: 90%; }
   .navbar-nav {
+    max-width: 100%;
     width: 1780px;
     display: flex;
-    justify-content: space-evenly; } }
+    justify-content: space-evenly; }
+  h1 {
+    max-width: 100%;
+    font-size: 15px; }
+  h2 {
+    max-width: 100%;
+    font-size: 14px; } }
 
 .footer {
   display: flex;
-  max-width: 100vw;
   background-color: gray;
-  width: 1798px;
+  max-width: 1822px;
   flex-direction: row;
   justify-content: space-around;
   border: 5px solid gray; }
@@ -242,15 +270,18 @@ a {
 
 .main_productos ul li {
   color: white;
-  font-size: 23px;
+  font-size: 20px;
   padding: 5px;
   margin: 10px;
-  list-style: decimal-leading-zero; }
+  list-style: none; }
 
 .main_productos .subtitulo {
   text-decoration: underline;
   font-size: 30px;
   margin: 25px; }
+
+.main_productos h2 {
+  max-width: 100%; }
 
 .main_productos .calidad {
   color: white;
@@ -271,7 +302,7 @@ a {
   display: flex;
   max-width: 100vw;
   background-color: gray;
-  width: 1800px;
+  width: 1820px;
   flex-direction: row;
   justify-content: space-around;
   border: 5px solid gray; }
@@ -285,16 +316,29 @@ a {
   .main_productos .navbar-nav {
     max-width: 500px; }
   .main_productos img {
+    max-width: 100%;
     width: 720px; }
   .main_productos .container-fluid {
     width: 415px; }
   .main_productos u {
     color: #e43ea4; }
+  .main_productos .subtitulo {
+    font-size: 18px;
+    max-width: 100%; }
+  .main_productos .calidad {
+    font-size: 15px;
+    max-width: 100%; }
+  .main_productos h2 {
+    font-size: 14px;
+    max-width: 100%; }
   main ul li {
     width: 70%;
     font-size: 10px;
-    margin: auto; }
+    margin: auto;
+    max-width: 100%;
+    font-size: 16px; }
   ul li u {
+    max-width: 100%;
     color: #e01313 !important; } }
 
 /* ANCHO MAXIMO MOBILE PRODUCTOS */
@@ -303,16 +347,30 @@ a {
     max-width: 414px;
     max-width: 50vw; }
   .main_productos img {
+    max-width: 100%;
     width: 415px; }
   .main_productos .container-fluid {
     width: 415px; }
   .main_productos u {
     color: #e43ea4; }
-  main ul li {
+  .main_productos .subtitulo {
+    font-size: 17px;
+    max-width: 100%; }
+  .main_productos .calidad {
+    font-size: 15px;
+    max-width: 100%; }
+  .main_productos h2 {
+    font-size: 15px; }
+  ul li {
     width: 100%;
-    font-size: 10px; }
+    font-size: 10px;
+    max-width: 100%; }
   ul li u {
+    font-size: 15px;
     color: #e01313 !important; } }
+
+body {
+  background-color: black; }
 
 .header .navbar-nav {
   width: 1770px;
@@ -348,7 +406,6 @@ a {
       transition: .2s; }
 
 .main-gaming-deportes .reset {
-  display: flex;
   padding: 5px;
   color: #faea00;
   font-size: 20px;
@@ -388,7 +445,7 @@ a {
   display: flex;
   max-width: 100vw;
   background-color: gray;
-  width: 1798px;
+  width: 1822px;
   flex-direction: row;
   justify-content: space-around;
   border: 5px solid gray; }
@@ -429,6 +486,7 @@ a {
     display: block;
     padding: 15px; }
   .main-gaming-deportes .video-gaming {
+    max-width: 60%;
     width: 475px;
     height: 260px;
     display: block; }
@@ -492,7 +550,13 @@ a {
   .main-quienes-somos h1 {
     font-size: 8px; }
   .footer-quienes-somos {
-    max-width: 100vw; } }
+    display: flex;
+    max-width: 100vw;
+    background-color: gray;
+    width: 1822px;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 5px solid gray; } }
 
 .main-contactos .transiciones-contacto {
   transform: translate(15px);
@@ -549,9 +613,13 @@ a {
   .main-contactos .formulario {
     padding: 5px;
     color: white;
-    display: flex;
-    flex-direction: row; }
+    display: block;
+    max-width: 45%;
+    margin: auto; }
+  .main-contactos .terminos {
+    max-width: 90%; }
   .main-contactos .texto {
+    max-width: 100%;
     width: 395px;
     margin: auto;
     display: flex;
@@ -568,18 +636,35 @@ a {
     transform: scale(1.1);
     transition: .2s; }
   .main-contactos u {
-    color: #782292; } }
+    color: #782292; }
+  .main-contactos h1 {
+    font-size: 16px;
+    max-width: 100%; }
+  .main-contactos h4 {
+    font-size: 14px;
+    max-width: 90%; }
+  .main-contactos h5 {
+    font-size: 14px;
+    max-width: 90%; } }
 
 /* ANCHO MAXIMO  MOBILE*/
 @media (max-width: 320px) {
   .main-contactos .formulario {
+    font-size: 12px;
+    max-width: 80%;
     padding: 2px;
     color: white;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-around; }
+  .main-contactos .titulo-contactos {
+    max-width: 80%; }
+  .main-contactos .terminos {
+    max-width: 100%; }
   .main-contactos .texto {
-    width: 290px; }
+    max-width: 80%;
+    width: 200px;
+    margin: auto; }
   .main-contactos .transiciones-contacto {
     transform: translate(2px);
     padding: 3px;
@@ -592,4 +677,13 @@ a {
     transform: scale(1.1);
     transition: .2s; }
   .main-contactos u {
-    color: #782292; } }
+    color: #782292; }
+  .main-contactos h1 {
+    font-size: 13px;
+    max-width: 100%; }
+  .main-contactos h4 {
+    font-size: 12px;
+    max-width: 90%; }
+  .main-contactos h5 {
+    font-size: 12px;
+    max-width: 90%; } }

@@ -7,7 +7,8 @@
         background-color: grey;
 
     }
-    .active{
+
+    .active {
         color: white;
     }
 
@@ -63,19 +64,23 @@
         width: 1785px;
 
     }
-   
+
     ul li {
         color: white;
-        font-size: 23px;
+        font-size: 20px;
         padding: 5px;
         margin: 10px;
-        list-style: decimal-leading-zero;
+        list-style: none;
     }
 
     .subtitulo {
         text-decoration: underline;
         font-size: 30px;
         margin: 25px;
+    }
+
+    h2 {
+        max-width: 100%;
     }
 
     .calidad {
@@ -102,7 +107,7 @@
     display: flex;
     max-width: 100vw;
     background-color: gray;
-    width: 1800px;
+    width: 1820px;
     flex-direction: row;
     justify-content: space-around;
     border: 5px solid gray;
@@ -126,6 +131,7 @@
         }
 
         img {
+            max-width: 100%;
             width: 720px;
         }
 
@@ -136,17 +142,37 @@
         u {
             color: $monster-fuchsia;
         }
+
+        .subtitulo {
+            font-size: 18px;
+            max-width: 100%;
+        }
+
+        .calidad {
+            font-size: 15px;
+            max-width: 100%;
+        }
+
+        h2 {
+            font-size: 14px;
+            max-width: 100%;
+        }
     }
 
     main ul li {
         width: 70%;
         font-size: 10px;
         margin: auto;
+        max-width: 100%;
+        font-size: 16px;
     }
 
     ul li u {
+        max-width: 100%;
         color: $monster-red !important;
     }
+
+
 }
 
 
@@ -164,6 +190,7 @@
         }
 
         img {
+            max-width: 100%;
             width: 415px;
         }
 
@@ -174,14 +201,31 @@
         u {
             color: $monster-fuchsia;
         }
+
+        .subtitulo {
+            font-size: 17px;
+            max-width: 100%;
+        }
+
+        .calidad {
+            font-size: 15px;
+            max-width: 100%;
+        }
+
+        h2 {
+            font-size: 15px;
+        }
     }
 
-    main ul li {
+    ul li {
         width: 100%;
         font-size: 10px;
+        max-width: 100%;
     }
 
     ul li u {
+        font-size: 15px;
         color: $monster-red !important;
     }
+
 }

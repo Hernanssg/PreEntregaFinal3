@@ -51,7 +51,7 @@
         font-family: monospace;
 
     }
-    
+
     .suscribete {
         padding: 5px;
         margin: 2px;
@@ -91,9 +91,10 @@
         width: 500px;
         height: 315px;
     }
- .active{
-    background-color: #faea00;
- }
+
+    .active {
+        background-color: #faea00;
+    }
 }
 
 
@@ -109,8 +110,22 @@
     .main {
         .movimiento {
             max-width: 520px;
+            width: 100%;
             transform: translate(200px);
         }
+
+        .index-sub {
+            max-width: 100%;
+            font-size: 14px;
+            display: block;
+        }
+
+        .video-index {
+            max-width: 80%;
+            width: 390px;
+            display: block;
+        }
+
     }
 
     u {
@@ -118,15 +133,26 @@
     }
 
     img {
-        width: 380px;
+        max-width: 80%;
+        width: 350px;
     }
 
     .navbar-nav {
-        width: 1780px;
+        max-width: 100%;
+        width: 1820px;
         display: flex;
         justify-content: space-evenly;
     }
 
+    h1 {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    h2 {
+        max-width: 100%;
+        font-size: 14px;
+    }
 }
 
 // ANCHO MAXIMO MOBILE 
@@ -135,21 +161,27 @@
     .main {
         .movimiento {
             max-width: 400px;
-            transform: translate(25px);
-            font-size: 20px;
+            transform: translate(17px);
+            font-size: 17px;
+            max-width: 100%;
         }
 
         .main__div {
             display: block;
 
             .index-sub {
+                max-width: 100%;
                 font-size: 10px;
+                margin: auto;
             }
         }
-                .video-index {
-                    width: 390px;
-                    display: block;
-                }    }
+
+        .video-index {
+            max-width: 80%;
+            width: 390px;
+            display: block;
+        }
+    }
 
     u {
         color: $monster-yellow;
@@ -159,14 +191,25 @@
         margin: auto;
         width: 200px;
         display: flex;
+        max-width: 90%;
     }
 
 
 
     .navbar-nav {
+        max-width: 100%;
         width: 1780px;
         display: flex;
         justify-content: space-evenly;
     }
 
+    h1 {
+        max-width: 100%;
+        font-size: 15px;
+    }
+
+    h2 {
+        max-width: 100%;
+        font-size: 14px;
+    }
 }
