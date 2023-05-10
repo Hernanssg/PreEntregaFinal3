@@ -503,10 +503,10 @@ a {
     max-width: 100%; }
   .main-gaming-deportes .subtitulo {
     padding: auto;
-    max-width: 50%;
+    max-width: 88%;
     margin: auto; }
   .main-gaming-deportes p {
-    max-width: 50%;
+    max-width: 79%;
     margin: auto;
     font-size: 15px; }
   .main-gaming-deportes .video-gaming {
@@ -635,7 +635,7 @@ a {
   transform: translate(15px);
   padding: 5px;
   background-color: black;
-  transition: 1s;
+  transition: 1.5s;
   font-size: 20px;
   text-decoration: underline color green; }
 
