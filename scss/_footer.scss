@@ -1,10 +1,11 @@
 .footer {
     display: flex;
     background-color: gray;
-    max-width: 1822px;
+    max-width: 100%;
     flex-direction: row;
     justify-content: space-around;
     border: 5px solid gray;
+    margin: 25px 0px 0px 0px;
 }
 
 a {

@@ -1,12 +1,12 @@
-body{
+body {
     background-color: black;
 }
+
 .header {
 
     .navbar-nav {
-        width: 1770px;
+        max-width: 100%;
         display: flex;
-        justify-content: space-evenly;
         background-color: grey;
 
     }
@@ -15,6 +15,7 @@ body{
         background: grey;
 
         .collapse {
+            max-width: 100%;
             background: grey;
         }
     }
@@ -41,7 +42,7 @@ body{
         .nav-link:hover {
             background-color: rgb(28, 39, 28);
             transition: .1s;
-            transform: scale(1.1);
+            transform: scale(1.0);
 
 
             .input:focus {
@@ -56,16 +57,19 @@ body{
 
 .main-gaming-deportes {
     .reset {
+        cursor: crosshair;
+        display: flex;
         padding: 5px;
-        color: #faea00;
-        font-size: 20px;
-        font-family: monospace;
+        width: 20px;
+        margin: 20px;
+        font-size: 35px;
     }
 
     .video-gaming {
-        width: 525px;
-        height: 280px;
-        margin: 25px;
+        width: 300px;
+        height: 200px;
+        margin: 50px;
+        box-shadow: 1px 7px 10px 4px grey;
     }
 
     .container {
@@ -80,27 +84,43 @@ body{
             "Foto1 Foto2"
             "Sorteo1 Sorteo2";
         justify-content: space-around;
-        max-width: 100vw;
+        max-width: 100%;
         text-align: center;
+    }
+
+    p {
+        margin: 25px;
     }
 }
 
 
 .Foto1 {
     grid-area: Foto1;
+    max-width: 506px;
+    margin: 20px;
+    box-shadow: 5px 3px 10px 4px #8ce087;
 }
+
 
 .Foto2 {
     grid-area: Foto2;
+    max-width: 505px;
+    margin: 20px;
+    box-shadow: 5px 3px 10px 4px #8ce087;
 }
 
 .Sorteo1 {
     grid-area: Sorteo1;
+    max-width: 604px;
+    margin: 20px;
+    box-shadow: 5px 3px 10px 4px #8ce087;
 }
 
 .Sorteo2 {
     grid-area: Sorteo2;
-    max-width: 640px;
+    max-width: 567px;
+    margin: 20px;
+    box-shadow: 5px 3px 10px 4px #8ce087;
 }
 
 
@@ -108,13 +128,13 @@ body{
 
 
 .footer {
+    max-width: 100%;
     display: flex;
-    max-width: 100vw;
     background-color: gray;
-    width: 1822px;
     flex-direction: row;
     justify-content: space-around;
     border: 5px solid gray;
+    margin: 25px 0px 0px 0px;
 }
 
 a {
@@ -185,14 +205,20 @@ a {
         .container {
             display: block;
             padding: 15px;
+            margin: 25px;
+        }
+
+        .subtitulo {
+            font-size: 17px;
         }
 
 
         .video-gaming {
+        
             max-width: 60%;
-            width: 475px;
-            height: 260px;
+            height: 200px;
             display: block;
+            margin: 25px;
         }
 
 
