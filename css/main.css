@@ -70,9 +70,14 @@ u {
       transition: .2s; }
 
 .main .main__foto {
-  width: 613px;
+  width: 610px;
   box-shadow: 1px 7px 10px 4px grey;
   margin: 20px; }
+
+.main .main__foto:hover {
+  object-fit: cover;
+  opacity: .7;
+  transition: .5s ease; }
 
 .main .movimiento {
   cursor: crosshair;
@@ -145,23 +150,28 @@ u {
 /* ANCHO MAXIMO  TABLET*/
 @media (max-width: 768px) {
   .main .movimiento {
-    max-width: 550px;
+    font-size: 20px;
     width: 100%;
     transform: translate(140px); }
-  .main .main__div .index-sub {
-    max-width: 70%;
-    font-size: 14px; }
+  .main .main__div {
+    margin: auto;
+    display: block; }
+    .main .main__div .index-sub {
+      font-size: 18px;
+      margin: auto;
+      padding: 5px; }
   .main .video-index {
     max-width: 80%;
     width: 390px;
     display: block; }
   .main .main__foto {
-    width: 350px; }
+    margin: auto;
+    width: 320px;
+    display: block; }
   u {
     color: #dafa25; }
   .navbar-nav {
     max-width: 100%;
-    width: 1820px;
     display: flex;
     justify-content: space-evenly; }
   h1 {
@@ -173,10 +183,9 @@ u {
 
 @media (max-width: 468px) {
   .main .movimiento {
-    max-width: 400px;
     transform: translate(17px);
     font-size: 17px;
-    max-width: 100%;
+    max-width: 85%;
     margin: 3px; }
   .main .main__div {
     display: block; }
@@ -270,7 +279,27 @@ a {
   list-style: none; }
 
 .main_productos .lista-productos {
-  width: 500px; }
+  max-width: 100%;
+  font-size: 15px; }
+
+.main_productos .Latas-monster {
+  display: flex;
+  margin: auto;
+  width: 700px;
+  height: 260px; }
+
+.main_productos .Latas-monster img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease; }
+
+.main_productos .Latas-monster img:hover {
+  cursor: crosshair;
+  width: 50px;
+  opacity: 1;
+  filter: contrast(120%); }
 
 .main_productos .subtitulo {
   text-decoration: underline;
@@ -470,13 +499,24 @@ a {
 
 /* ANCHO MAXIMO TABLET Gaming-Deportes */
 @media (max-width: 768px) {
+  .header .nav {
+    max-width: 100%; }
+  .main-gaming-deportes .subtitulo {
+    padding: auto;
+    max-width: 50%;
+    margin: auto; }
+  .main-gaming-deportes p {
+    max-width: 50%;
+    margin: auto;
+    font-size: 15px; }
   .main-gaming-deportes .video-gaming {
-    width: 475px;
+    width: 455px;
     height: 260px;
     display: block;
     margin: auto;
     padding: 5px; }
   .main-gaming-deportes .container {
+    max-width: 85%;
     display: block;
     padding: 15px; }
   .main-gaming-deportes .container .Foto1 {
@@ -490,7 +530,9 @@ a {
   .main-gaming-deportes .container .Sorteo2 {
     max-width: 485px; }
   .main-gaming-deportes u {
-    color: #1b18c7; } }
+    color: #1b18c7; }
+  .footer {
+    max-width: 100%; } }
 
 .mobile-last u {
   color: green; }
@@ -498,6 +540,7 @@ a {
 /* ANCHO MAXIMO  MOBILE Gaming-Deportes */
 @media (max-width: 540px) {
   .main-gaming-deportes .container {
+    max-width: 85%;
     display: block;
     padding: 15px;
     margin: 25px; }
@@ -641,14 +684,18 @@ a {
   transform: scale(1.1);
   transition: .2s; }
 
+.main-contactos label {
+  background: slategrey; }
+
 /* ANCHO MAXIMO  TABLET*/
 @media (max-width: 768px) {
   .main-contactos .formulario {
     padding: 5px;
     color: white;
     display: block;
-    max-width: 60%;
-    margin: auto; }
+    max-width: 67%;
+    margin: auto;
+    background: slategrey; }
   .main-contactos .terminos {
     max-width: 90%; }
   .main-contactos .condiciones {
@@ -673,6 +720,10 @@ a {
     background-color: #64ed6b;
     transform: scale(1.1);
     transition: .2s; }
+  .main-contactos .input {
+    margin: 18px; }
+  .main-contactos label {
+    background: slategrey; }
   .main-contactos u {
     color: #782292; }
   .main-contactos h1 {
@@ -701,6 +752,8 @@ a {
     display: flex;
     max-width: 160px;
     margin: auto; }
+  .main-contactos fieldset {
+    padding: 10px; }
   .main-contactos .terminos {
     max-width: 100%; }
   .main-contactos .texto {
@@ -718,7 +771,10 @@ a {
   .main-contactos .input:focus {
     background-color: #64ed6b;
     transform: scale(1.1);
-    transition: .2s; }
+    transition: .2s;
+    margin: 18px; }
+  .main-contactos .input {
+    margin: 18px; }
   .main-contactos u {
     color: #782292; }
   .main-contactos h1 {

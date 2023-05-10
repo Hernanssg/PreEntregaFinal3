@@ -77,8 +77,33 @@
     }
 
     .lista-productos {
-        width: 500px;
+        max-width: 100%;
+        font-size: 15px;
+
     }
+
+    .Latas-monster{
+        display: flex;
+        margin: auto;
+        width: 700px;
+        height: 260px;
+      }
+      .Latas-monster img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+      }
+      .Latas-monster img:hover{
+        cursor: crosshair;
+        width: 50px;
+        opacity: 1;
+        filter: contrast(120%);
+        
+      }
+
+   
 
     .subtitulo {
         text-decoration: underline;

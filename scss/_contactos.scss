@@ -68,6 +68,9 @@
         transform: scale(1.1);
         transition: .2s;
     }
+    label{
+        background: slategrey;
+    }
 }
 
 /* ANCHO MAXIMO  TABLET*/
@@ -77,8 +80,9 @@
             padding: 5px;
             color: white;
             display: block;
-            max-width: 60%;
+            max-width: 67%;
             margin: auto;
+            background: slategrey;
         }
 
         .terminos {
@@ -115,6 +119,12 @@
             background-color: rgb(100, 237, 107);
             transform: scale(1.1);
             transition: .2s;
+        }
+        .input{
+            margin: 18px;
+        }
+        label{
+            background: slategrey;
         }
 
         u {
@@ -163,6 +173,9 @@
             max-width: 160px;
             margin: auto;
         }
+        fieldset{
+            padding: 10px;
+        }
 
         .terminos {
             max-width: 100%;
@@ -188,6 +201,10 @@
             background-color: rgb(100, 237, 107);
             transform: scale(1.1);
             transition: .2s;
+            margin: 18px;
+        }
+        .input{
+            margin: 18px;
         }
 
         u {

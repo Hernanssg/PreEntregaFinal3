@@ -148,10 +148,28 @@ a {
 /* ANCHO MAXIMO TABLET Gaming-Deportes */
 @media (max-width: 768px) {
 
+    .header {
+        .nav {
+            max-width: 100%;
+        }
+    }
+
     .main-gaming-deportes {
 
+        .subtitulo {
+            padding: auto;
+            max-width: 50%;
+            margin: auto;
+        }
+
+        p {
+            max-width: 50%;
+            margin: auto;
+            font-size: 15px;
+        }
+
         .video-gaming {
-            width: 475px;
+            width: 455px;
             height: 260px;
             display: block;
             margin: auto;
@@ -159,6 +177,7 @@ a {
         }
 
         .container {
+            max-width: 85%;
             display: block;
             padding: 15px;
         }
@@ -188,6 +207,10 @@ a {
             color: $monster-blue;
         }
     }
+
+    .footer {
+        max-width: 100%;
+    }
 }
 
 
@@ -203,6 +226,7 @@ a {
 
     .main-gaming-deportes {
         .container {
+            max-width: 85%;
             display: block;
             padding: 15px;
             margin: 25px;
@@ -214,7 +238,7 @@ a {
 
 
         .video-gaming {
-        
+
             max-width: 60%;
             height: 200px;
             display: block;
