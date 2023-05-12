@@ -135,17 +135,9 @@
         width: 20px;
         margin: 20px;
         font-size: 35px;
+        background-color: black;
 
     }
-}
-
-.footer {
-    display: flex;
-    max-width: 98vw;
-    background-color: gray;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 5px solid gray;
 }
 
 .condicion {
@@ -269,6 +261,22 @@
     ul li u {
         font-size: 15px;
         color: $monster-red !important;
+    }
+    .footer {
+        display: block;
+        .apps {
+            list-style: none;
+            width: 85%;
+            display: flex;
+            margin: auto;
+            background-color: #676767;
+            font-size: 12px;
+            justify-content: flex-start;
+
+            .fondo {
+                background-color: #676767;
+            }
+        }
     }
 
 }

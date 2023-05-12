@@ -102,7 +102,8 @@ u {
   padding: 5px;
   width: 20px;
   margin: 20px;
-  font-size: 35px; }
+  font-size: 35px;
+  background-color: black; }
 
 .main .suscribete {
   padding: 5px;
@@ -143,6 +144,16 @@ u {
 .main .active {
   background-color: #faea00; }
 
+.footer .apps {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #676767;
+  font-size: 12px; }
+  .footer .apps .fondo {
+    background-color: #676767; }
+
 /* Mobile last */
 .mobile-last u {
   color: green; }
@@ -179,7 +190,16 @@ u {
     font-size: 15px; }
   h2 {
     max-width: 100%;
-    font-size: 14px; } }
+    font-size: 14px; }
+  .footer .apps {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #676767;
+    font-size: 12px; }
+    .footer .apps .fondo {
+      background-color: #676767; } }
 
 @media (max-width: 468px) {
   .main .movimiento {
@@ -215,19 +235,33 @@ u {
     font-size: 15px; }
   h2 {
     max-width: 100%;
-    font-size: 14px; } }
+    font-size: 14px; }
+  .footer {
+    display: block; }
+    .footer .apps {
+      list-style: none;
+      width: 85%;
+      display: flex;
+      margin: auto;
+      background-color: #676767;
+      font-size: 12px;
+      justify-content: flex-start; }
+      .footer .apps .fondo {
+        background-color: #676767; } }
 
-.footer {
+.footer .apps {
+  list-style: none;
+  width: 100%;
   display: flex;
-  background-color: gray;
-  max-width: 100%;
-  flex-direction: row;
   justify-content: space-around;
-  border: 5px solid gray;
-  margin: 25px 0px 0px 0px; }
+  background-color: #676767;
+  font-size: 12px; }
+  .footer .apps .fondo {
+    background-color: #676767; }
 
 a {
-  color: white; }
+  color: white;
+  background-color: #676767; }
 
 .__header .navbar-nav {
   max-width: 100%;
@@ -324,15 +358,8 @@ a {
   padding: 5px;
   width: 20px;
   margin: 20px;
-  font-size: 35px; }
-
-.footer {
-  display: flex;
-  max-width: 98vw;
-  background-color: gray;
-  flex-direction: row;
-  justify-content: space-around;
-  border: 5px solid gray; }
+  font-size: 35px;
+  background-color: black; }
 
 .condicion {
   color: white;
@@ -398,7 +425,19 @@ a {
     max-width: 100%; }
   ul li u {
     font-size: 15px;
-    color: #e01313 !important; } }
+    color: #e01313 !important; }
+  .footer {
+    display: block; }
+    .footer .apps {
+      list-style: none;
+      width: 85%;
+      display: flex;
+      margin: auto;
+      background-color: #676767;
+      font-size: 12px;
+      justify-content: flex-start; }
+      .footer .apps .fondo {
+        background-color: #676767; } }
 
 body {
   background-color: black; }
@@ -442,7 +481,8 @@ body {
   padding: 5px;
   width: 20px;
   margin: 20px;
-  font-size: 35px; }
+  font-size: 35px;
+  background-color: black; }
 
 .main-gaming-deportes .video-gaming {
   width: 300px;
@@ -490,16 +530,18 @@ body {
   box-shadow: 5px 3px 10px 4px #8ce087; }
 
 .footer {
-  max-width: 100%;
   display: flex;
   background-color: gray;
+  max-width: 100%;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   border: 5px solid gray;
-  margin: 25px 0px 0px 0px; }
+  margin: 25px 0px 0px; }
 
 a {
-  color: white; }
+  color: white;
+  margin: 5px; }
 
 /* ANCHO MAXIMO TABLET Gaming-Deportes */
 @media (max-width: 768px) {
@@ -566,7 +608,20 @@ a {
   .main-gaming-deportes .container .Sorteo2 {
     max-width: 485px; }
   .main-gaming-deportes u {
-    color: #1b18c7; } }
+    color: #1b18c7; }
+  .footer {
+    display: block; }
+    .footer .apps {
+      list-style: none;
+      width: 85%;
+      display: flex;
+      margin: auto;
+      background-color: #676767;
+      font-size: 12px;
+      justify-content: flex-start;
+      justify-content: space-around; }
+      .footer .apps .fondo {
+        background-color: #676767; } }
 
 .main-quienes-somos .informacion {
   margin: 25px;
@@ -626,13 +681,17 @@ a {
   .main-quienes-somos h1 {
     font-size: 8px; }
   .footer-quienes-somos {
-    display: flex;
-    max-width: 100vw;
-    background-color: gray;
-    width: 1822px;
-    flex-direction: row;
-    justify-content: space-around;
-    border: 5px solid gray; } }
+    display: block; }
+    .footer-quienes-somos .apps {
+      list-style: none;
+      width: 85%;
+      display: flex;
+      margin: auto;
+      background-color: #676767;
+      font-size: 12px;
+      justify-content: flex-start; }
+      .footer-quienes-somos .apps .fondo {
+        background-color: #676767; } }
 
 .main-contactos .transiciones-contacto {
   max-width: 95%;
