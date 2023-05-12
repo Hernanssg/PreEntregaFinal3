@@ -347,6 +347,8 @@ a {
     width: 720px; }
   .main_productos .container-fluid {
     width: 415px; }
+  .main_productos .Latas-monster {
+    max-width: 100%; }
   .main_productos u {
     color: #e43ea4; }
   .main_productos .subtitulo {
@@ -376,6 +378,8 @@ a {
   .main_productos img {
     max-width: 100%;
     width: 415px; }
+  .main_productos .Latas-monster {
+    max-width: 100%; }
   .main_productos .container-fluid {
     width: 415px; }
   .main_productos u {
@@ -442,7 +446,7 @@ body {
 
 .main-gaming-deportes .video-gaming {
   width: 300px;
-  height: 200px;
+  height: 230px;
   margin: 50px;
   box-shadow: 1px 7px 10px 4px grey; }
 

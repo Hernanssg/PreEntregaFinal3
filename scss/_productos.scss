@@ -82,28 +82,30 @@
 
     }
 
-    .Latas-monster{
+    .Latas-monster {
         display: flex;
         margin: auto;
         width: 700px;
         height: 260px;
-      }
-      .Latas-monster img{
+    }
+
+    .Latas-monster img {
         width: 0px;
         flex-grow: 1;
         object-fit: cover;
         opacity: .8;
         transition: .5s ease;
-      }
-      .Latas-monster img:hover{
+    }
+
+    .Latas-monster img:hover {
         cursor: crosshair;
         width: 50px;
         opacity: 1;
         filter: contrast(120%);
-        
-      }
 
-   
+    }
+
+
 
     .subtitulo {
         text-decoration: underline;
@@ -172,6 +174,10 @@
             width: 415px;
         }
 
+        .Latas-monster {
+            max-width: 100%;
+        }
+
         u {
             color: $monster-fuchsia;
         }
@@ -225,6 +231,10 @@
         img {
             max-width: 100%;
             width: 415px;
+        }
+
+        .Latas-monster {
+            max-width: 100%;
         }
 
         .container-fluid {
